@@ -1,0 +1,73 @@
+.word-counter-container {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.word-counter-container h2 {
+  font-size: 42px;
+}
+
+.word-counter-container textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #77ede4;
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: content-box;
+  font-family: serif;
+  font-size: 16px;
+  max-width: 100%;
+  max-block-size: 100%;
+  max-height: 100%;
+  line-height: 2;
+  margin: auto auto;
+}
+
+.word-counter-container .count-btn {
+  padding: 16px 48px;
+  margin: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #39bd7f;
+  color: #080904;
+  border: none;
+  border-radius: 8px;
+  transition: all 250ms ease;
+}
+
+.word-counter-container .count-btn:hover {
+  background: #090909;
+  color: #3fb8e7;
+}
+
+.word-counter-container .word-count {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.word-counter-container .word-count span {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.word-counter-container .details:hover {
+  text-align-last: right;
+  font-size: 24px;
+  color: #5ee7a7;
+  background-color: #3fb8e7;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
